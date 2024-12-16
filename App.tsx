@@ -11,6 +11,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();
 
+
+
 const Home = ({ navigation }: { navigation: any }) => {
  const navigateToAbout = () => {
   navigation.navigate("About");
@@ -77,22 +79,21 @@ const styles = StyleSheet.create({
   flex: 1,
   alignItems: "center",
   justifyContent: "center",
-  padding: 20,
+  padding: 18,
  },
  title: {
-  fontSize: 24,
-  fontWeight: "bold",
+  fontSize: 22,
   marginBottom: 20,
  },
  button: {
   backgroundColor: "#007BFF", 
-  paddingVertical: 10, 
-  paddingHorizontal: 20, 
+  paddingVertical: 8, 
+  paddingHorizontal: 18, 
   borderRadius: 5, 
  },
  buttonText: {
   color: "#FFFFFF", 
-  fontSize: 16, 
+  fontSize: 14, 
   textAlign: "center", 
  },
 });
