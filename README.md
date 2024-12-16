@@ -17,6 +17,10 @@ npm i @react-navigation/native
 npm i react-native-screens react-native-safe-area-context
 ```
 
+```
+npm i @react-navigation/native-stack
+```
+
 ### 3. Cambio título de la App:
 ```
 export default function App() {
