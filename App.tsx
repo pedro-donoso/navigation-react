@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./components/Home";
 import About from "./components/About";
 
+
 const Stack = createNativeStackNavigator();
 
 function App(): JSX.Element {
@@ -13,11 +14,11 @@ function App(): JSX.Element {
     initialRouteName="Home"
     screenOptions={{
      headerStyle: {
-      backgroundColor: "#007BFF", // Color de fondo de la barra de navegación
+      backgroundColor: "#007BFF", 
      },
-     headerTintColor: "#FFFFFF", // Color del texto y botones en la barra de navegación
+     headerTintColor: "#FFFFFF", 
      headerTitleStyle: {
-      fontWeight: "bold", // Estilo del título
+      fontWeight: "bold", 
      },
     }}
    >
