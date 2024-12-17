@@ -10,15 +10,7 @@ npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 
 ```
-npm i @react-navigation/native
-```
-
-```
-npm i react-native-screens react-native-safe-area-context
-```
-
-```
-npm i @react-navigation/native-stack
+npm i @react-navigation/native react-native-screens react-native-safe-area-context @react-navigation/native-stack
 ```
 
 ### 3. Cambio título de la App:
